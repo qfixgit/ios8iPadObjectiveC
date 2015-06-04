@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N0W-HO-JyA">
+                                <rect key="frame" x="226" y="263" width="162" height="62"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="N0W-HO-JyA" secondAttribute="centerY" id="5qW-7Z-uGy"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="N0W-HO-JyA" secondAttribute="bottom" constant="289" id="Fmt-bU-StC"/>
+                            <constraint firstAttribute="centerY" secondItem="N0W-HO-JyA" secondAttribute="centerY" id="KXD-Yb-cd5"/>
+                            <constraint firstAttribute="centerX" secondItem="N0W-HO-JyA" secondAttribute="centerX" id="L0M-4o-vcn"/>
+                            <constraint firstItem="N0W-HO-JyA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="279" id="cFX-Pu-uAw"/>
+                            <constraint firstItem="N0W-HO-JyA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="270" id="fpW-2C-C1P"/>
+                            <constraint firstAttribute="centerX" secondItem="N0W-HO-JyA" secondAttribute="centerX" id="iP6-UO-tpK"/>
+                            <constraint firstAttribute="trailing" secondItem="N0W-HO-JyA" secondAttribute="trailing" constant="279" id="w1C-bN-EWn"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5qW-7Z-uGy"/>
+                                <exclude reference="L0M-4o-vcn"/>
+                                <exclude reference="cFX-Pu-uAw"/>
+                                <exclude reference="fpW-2C-C1P"/>
+                                <exclude reference="w1C-bN-EWn"/>
+                                <exclude reference="Fmt-bU-StC"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="testLabel" destination="N0W-HO-JyA" id="JlK-yA-Tf5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
